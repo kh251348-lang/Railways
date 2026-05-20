@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Express Railways - Login</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+.login-container {
+max-width: 400px;
+margin: 60px auto;
+background-color: #ffffff;
+padding: 40px 30px;
+border-radius: 8px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+text-align: center;
+border: 1px solid #e2e8f0;
+}
+
+.login-container h2 {
+margin-bottom: 25px;
+color: #495057;
+}
+
+.login-form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+padding: 14px;
+border: 1px solid #cbd5e1;
+border-radius: 4px;
+background-color: #ffffff;
+color: #333333;
+font-size: 16px;
+width: 100%;
+}
+
+.login-form input::placeholder {
+color: #94a3b8;
+}
+
+.form-options {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 14px;
+color: #64748b;
+text-align: left;
+}
+
+.remember-me {
+display: flex;
+align-items: center;
+gap: 6px;
+cursor: pointer;
+}
+
+.forgot-pass {
+color: #495057;
+text-decoration: none;
+font-weight: bold;
+}
+
+.forgot-pass:hover {
+text-decoration: underline;
+}
+
+.login-form button {
+padding: 14px;
+background-color: #495057;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+font-size: 16px;
+transition: background-color 0.3s;
+width: 100%;
+}
+
+.login-form button:hover {
+background-color: #343a40;
+}
+
+.login-container p.register-text {
+margin-top: 20px;
+font-size: 14px;
+color: #64748b;
+}
+
+.login-container p.register-text a {
+color: #495057;
+text-decoration: none;
+font-weight: bold;
+}
+
+.login-container p.register-text a:hover {
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<i class="fa-solid fa-train logo-icon"></i>
+<h1>Express Railways</h1>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="#">Trip Info</a></li>
+<li><a href="#">Manage</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="Login.html">Login</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<div class="login-container">
+<h2>Login to Your Account</h2>
+<form class="login-form" action="index.html">
+<input type="email" placeholder="Email Address" required>
+<input type="password" placeholder="Password" required>
+
+<div class="form-options">
+<label class="remember-me">
+<input type="checkbox"> Remember me
+</label>
+<a href="#" class="forgot-pass">Forgot Password?</a>
+</div>
+
+<button type="submit">Sign In</button>
+</form>
+<p class="register-text">Don't have an account? <a href="#">Register here</a></p>
+</div>
+</main>
+
+<footer>
+<div class="footer-content">
+<p>Email: Najmah Saleh@railways.com</p>
+<p>Phone: +966 900 300 100 000</p>
+</div>
+<div class="social-links">
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Instagram</a>
+</div>
+<div class="accessibility">
+<a href="#">Accessibility</a>
+</div>
+</footer>
+
+</body>
+</html>ss
